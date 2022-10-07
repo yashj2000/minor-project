@@ -2,7 +2,19 @@
   flex-direction: column;
   background: var(--color-black);
 }
+.arc_text{
+  font-size: 1.2rem;
+  text-align: center;
+  color: aliceblue;
+  line-height: 30px;
+}
+.history_text{
+  font-size: 1.2rem;
+    text-align: center;
+    color: aliceblue;
+    line-height: 30px;
 
+}
 .app__specialMenu-title {
   margin-bottom: 2rem;
   text-align: center;
@@ -24,7 +36,9 @@
   font-size: 45px;
   line-height: 58.5px;
   letter-spacing: 0.04em;
-  color: var(--color-white);
+  color: #dcca87;
+  padding-bottom: 20px
+    ;
 }
 
 .app__specialMenu-menu_wine,
@@ -41,7 +55,7 @@
 
 .app__specialMenu-menu_img img {
   width: 100%;
-  height: auto;
+  height: 600px;
 }
 
 .app__specialMenu_menu_items {

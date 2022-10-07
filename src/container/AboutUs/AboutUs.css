@@ -2,14 +2,21 @@
   position: relative;
 }
 
+img{
+  align-self: center;
+    height: auto;
+    width: 600px;
+}
+
 .app__aboutus-overlay {
   position: absolute;
   inset: 0;
 }
 
 .app__aboutus-overlay img {
-  width: 391px;
-  height: 415px;
+  width: auto;
+  height: auto;
+  filter: blur(1px);
   z-index: 0;
 }
 
@@ -19,6 +26,8 @@
 }
 
 .app__aboutus-content_about {
+ 
+
   flex: 1;
   display: flex;
   justify-content: flex-end;
@@ -42,13 +51,15 @@
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
-
   text-align: left;
 }
 
-.app__aboutus-content_about p,
+
+/* .app__aboutus-content_about h1{
+  
+} */
 .app__aboutus-content_history p {
-  margin: 2rem 0;
+  margin: 10px;
   color: var(--color-grey);
 }
 

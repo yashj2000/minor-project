@@ -15,14 +15,15 @@
 }
 
 .app__navbar-logo img {
-  width: 150px;
+  height: 130px;
+  width: 400px;
 }
 
 .app__navbar-links {
   flex: 1;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: right;
+  align-items: right;
 
   list-style: none;
 }

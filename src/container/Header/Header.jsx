@@ -5,18 +5,19 @@ import { images } from "../../constants";
 import "./Header.css";
 
 const Header = () => (
-  <div className="app__header app__wrapper section__padding" id="home">
+  <div className="app__header app__wrapper section__padding" id="home" >
     <div className="app__wrapper_info">
-      <SubHeading title="Chase the new flavour" />
-      <h1 className="app__header-h1">The Key To Fine Dining</h1>
+      <SubHeading title="Glimpse of the old" />
+      <h1 className="app__header-h1">Burst of Cultural Escapades</h1>
       <p className="p__opensans" style={{ margin: "2rem 0" }}>
-        Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat
-        morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet
-        tellus{" "}
+        Get an aphrodisiac feel of culture and heritage, all encompassed carefully at the Albert Hall Museum in Jaipur. 
+        Known for its sombre collection of artefacts and a history as rich as the state itself, 
+        the Albert Hall Museum holds to be a treat to yearning eyes. 
+        With absolutely stunning architecture and intricate design, this museum is the pride of Jaipur in every measure.{" "}
       </p>
-      <button type="button" className="custom__button">
+      {/* <button type="button" className="custom__button">
         Explore Menu
-      </button>
+      </button> */}
     </div>
 
     <div className="app__wrapper_img">

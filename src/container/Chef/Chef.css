@@ -33,6 +33,13 @@
   color: var(--color-golden);
 }
 
+
+.things_t {
+  font-size: 1.2rem;
+  color: aliceblue;
+  line-height: 50px;
+}
+
 .app__chef-sign img {
   width: 250px;
   margin-top: 3rem;

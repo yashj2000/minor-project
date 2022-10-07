@@ -13,6 +13,10 @@
   margin-top: 3rem;
 }
 
+a {
+  padding-bottom: 50px;
+}
+
 .app__newsletter-input input {
   width: 620px;
   border: 1px solid var(--color-golden);
