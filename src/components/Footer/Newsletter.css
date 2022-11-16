@@ -65,3 +65,9 @@ a {
     line-height: 50px;
   }
 }
+
+iframe{
+  width: 1000px;
+  height: 300px;
+  filter: invert(100%);
+}

@@ -16,3 +16,9 @@
 .app__footerOverlay-img {
   height: 75%;
 }
+
+iframe{
+  width: 100px;
+  height: 100px;
+  filter: invert(100%);
+}
